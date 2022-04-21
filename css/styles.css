@@ -12471,3 +12471,15 @@ header.masthead .h1 {
 .object-fit-cover {
   object-fit: cover;
 }
+
+.selectable {
+  position: relative;
+}
+
+.selectable :hover {
+  cursor: pointer;
+}
+
+.selectable ::after {
+  opacity: .1;
+}
